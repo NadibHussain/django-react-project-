@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./teststructure/login/src/index.js --output ./teststructure/login/static/login/main.js"
+    "dev": "webpack --mode development --watch ./teststructure/login/src/index.js --output ./teststructure/login/static/login/main.js"
   },
   "author": "",
   "license": "ISC",
